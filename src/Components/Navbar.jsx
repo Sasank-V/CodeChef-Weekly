@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div className="flex flex-col justify-around items-center h-[100%] text-[#2C2C2C] font-inter">
             <div className="flex justify-between items-center w-[100%] px-8 pt-2">
-                <div className="w-[12px]">
+                <div className="w-[12px] hover:scale-[110%]">
                     <img src={backArrow} alt="Back Arrow" />
                 </div>
                 <div className="flex-col items-center border-2 h-[100%]">
@@ -16,7 +16,7 @@ const Navbar = () => {
                         Leaderboard
                     </h1>
                 </div>
-                <div className="w-[20px]">
+                <div className="w-[20px] hover:rotate-[180deg] transition-all duration-500">
                     <img src={fourDots} alt="Four Dots" />
                 </div>
             </div>
