@@ -8,7 +8,7 @@ function App() {
     <div className="w-[100%] relative h-[20%]">
       <Navbar/>
     </div>
-    <div className="flex h-[80%] flex-wrap">
+    <div className="flex h-[80%] flex-wrap overflow-hidden">
       <div className="w-[100%] md:w-[50%]">
         <Topscore/>
       </div>
