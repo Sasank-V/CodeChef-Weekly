@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div className="w-[12px] hover:scale-[110%]">
                     <img src={backArrow} alt="Back Arrow" />
                 </div>
-                <div className="flex-col items-center border-2 h-[100%]">
+                <div className="flex-col items-center h-[100%]">
                     <h1 className="relative text-xl sm:text-[1.5rem] font-semibold bottom-[-2px]">
                         Leaderboard
                     </h1>
