@@ -10,7 +10,7 @@ const Leaderboard = () =>{
             {data.map((ele,idx)=>
                 <div className="flex justify-between border-b-[1px] pb-4 mb-4">
                     <div className="flex">
-                        <div className="border-[3.5px] w-[60px] h-[60px] border-white flex justify-center items-center rounded-[50%] font-semibold text-xl ">#{idx+3}</div>
+                        <div className="border-[3.5px] w-[60px] h-[60px] border-white flex justify-center items-center rounded-[50%] font-semibold text-xl ">#{idx+4}</div>
                         <div className="mx-6 sm:mx-3 lg:mx-8 flex justify-center items-center text-md break-words flex-wrap overflow-hidden">
                             <span className="break-all">{ele.name}</span>
                         </div>
